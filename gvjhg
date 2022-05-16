@@ -10,7 +10,7 @@ for image in images:
     width, height = img.size
 
     draw = ImageDraw.Draw(img)
-    text = "Nurislam"
+    text = "Kubanych"
 
     font = ImageFont.truetype('arial.ttf', 50)
     textwidth, textheight = draw.textsize(text, font)
